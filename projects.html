@@ -48,20 +48,79 @@
             <h1>GALERIA DE PROYECTOS</h1>
             <figure class="icon-cards mt-3">
                 <div class="icon-cards__content">
-                    <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">🙂</span></div>
-                    <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">😊</span></div>
-                    <div class="icon-cards__item d-flex align-items-center justify-content-center"><span class="h1">😀</span></div>
+                    <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                        <span class="h1"><img src="img/casa-remodelada-1.jpg" alt="casa remodelada 1"></span>
+                    </div>
+                    <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                        <span class="h1"><img src="img/casa-remodelada-2.jpg" alt="casa remodelada 2"></span>
+                    </div>
+                    <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                        <span class="h1"><img src="img/energia-renovable-1.jpg" alt="energia renovable 1"></span>
+                    </div>
+                    <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                        <span class="h1"><img src="img/energia-renovable-2.jpg" alt="energia renovable 2"></span>
+                    </div>
                 </div>
             </figure>
         </section>
+        <section>
+            <h1>TESTIMONIOS</h1>
+            <div class="testimonials-carousel owl-carousel">
+                <div class="testimonial-item">
+                    <img src="img/persona1.jfif" alt="Customer 1" class="testimonial-img">
+                    <h3 class="customer-name">Ana García</h3>
+                    <p class="testimonial-text">"La calidad del trabajo superó nuestras expectativas. El equipo fue muy profesional y la comunicación excelente."</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">☆</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <img src="img/persona2.jfif" alt="Customer 2" class="testimonial-img">
+                    <h3 class="customer-name">Carlos Mendoza</h3>
+                    <p class="testimonial-text">"Una experiencia realmente positiva. Los resultados fueron fantásticos y el servicio al cliente excepcional."</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <img src="img/persona3.jfif" alt="Customer 3" class="testimonial-img">
+                    <h3 class="customer-name">Mariana Suárez</h3>
+                    <p class="testimonial-text">"El equipo demostró un gran nivel de compromiso y profesionalismo. Recomiendo sus servicios sin dudarlo."</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <img src="img/persona4.jfif" alt="Customer 4" class="testimonial-img">
+                    <h3 class="customer-name">Luis Fernández</h3>
+                    <p class="testimonial-text">"Excelente servicio y resultados. El equipo fue atento a cada detalle y cumplió con los plazos acordados."</p>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
     </article>
-    <script>
-        function classToggle() {
-            var el = document.querySelector('.icon-cards__content');
-            el.classList.toggle('step-animation');
-        }
-
-        document.querySelector('#toggle-animation').addEventListener('click', classToggle);
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/carrusel.js"></script>
 </body>
 </html>
