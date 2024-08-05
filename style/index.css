@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.page-container {
+    flex: 1; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2e2e2e;
+    padding: 10px 100px;
+    box-shadow: 0px 5px 10px 5px #000;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 20px; 
+}
+
+.nav-links li a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    margin: 5px;
+}
+
+.nav-links li a:hover {
+    color: #f4b400; 
+}
+
+.nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #f4b400; 
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+    
+}
+
+.nav-links a:hover {
+    color: #f4b400; 
+    text-shadow: 
+        0 0 5px rgba(255,255,0,1),
+        0 0 10px rgba(255,255,0,1),
+        0 0 20px rgba(255,255,0,1),
+        0 0 40px rgba(255,255,0,1),
+        0 0 80px rgba(255,255,0,1),
+        0 0 90px rgba(255,255,0,1),
+        0 0 100px rgba(255,255,0,1),
+        0 0 140px rgba(255,255,0,1),
+        0 0 180px rgba(255,255,0,1);
+}
+
+.nav-links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+section {
+    padding-top: 100px;
+    text-align: center;
+}
+
+h1.animate__pulse {
+    animation-duration: 4s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+}
+
+h1 {
+    font-size: 100rem; 
+    font-weight: 900; 
+    color: #ffff00; 
+    text-shadow:
+        0 0 5px rgba(255, 255, 0, 1),
+        0 0 10px rgba(255, 255, 0, 1),
+        0 0 20px rgba(255, 255, 0, 1),
+        0 0 40px rgba(255, 217, 0, 1),
+        0 0 80px rgba(255, 217, 0, 1),
+        0 0 90px rgba(255, 217, 0, 1),
+        0 0 100px rgba(255, 217, 0, 1),
+        0 0 140px rgba(255, 217, 0, 1);
+}
+
+section h1 {
+    font-size: 100px; 
+    color: #000;
+    margin-bottom: 55px;
+    font-family: sans-serif;
+}
+
+section p {
+    margin: 10px auto;
+    color: #000;
+    font-size: 30px;
+}
+
+.typewriter {
+    font-size: 2.0rem;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+
+section p.descripcion {
+    font-size: 20px; 
+    max-width: 800px; 
+    margin: 30px auto; 
+    color: #000;
+    font-family: sans-serif;
+}
+
+section a {
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #ffffff;
+    padding: 10px 15px;
+}
+
+section a:hover{
+    -webkit-box-shadow: -1px -2px 30px 5px rgba(255,255,255,1);
+    -moz-box-shadow: -1px -2px 30px 5px rgba(255,255,255,1);
+    box-shadow: -1px -2px 30px 5px rgba(255,255,255,1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 24px; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: -80px;
+}
+
+.contact-info span {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.contact-info i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.separator {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.footer-content p {
+    margin-top: 10px;
+}
