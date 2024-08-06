@@ -1,4 +1,4 @@
-// script.js
+
 document.addEventListener('DOMContentLoaded', function () {
     var typed = new Typed('#typed', {
         strings: [

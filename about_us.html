@@ -4,80 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/logo.ico">
     <link rel="stylesheet" href="style/about_us.css">
     <title>OMNICOM</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Inicio</a></li>
-                <li><a href="about_us.html">Sobre Nosotros</a></li>
-                <li><a href="services.html">Servicios</a></li>
-                <li><a href="projects.html">Proyectos</a></li>
-                <li><a href="market-analysis.html">Análisis de Mercado</a></li>
-                <li><a href="#">Contáctenos</a></li>
-            </ul>
-        </nav>
-
-        <div class="redes">
-            <a href="#"><img src="img/twitter.png" alt="icono twitter"></a>
-            <a href="#"><img src="img/facebook.png" alt="icono facebook"></a>
-            <a href="#"><img src="img/instagram.png" alt="icono instagram"></a>
-        </div>
-    </header>
-    <article>
-        <section class="about-section">
-            <div class="image-container animate__animated animate__fadeInLeft">
-                <img src="img/mision.jpg" alt="Imagen misión">
+    <div class="page-container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="./img/logo.png" alt="Logo"></a>
             </div>
-            <div class="text-container animate__animated animate__fadeInRight">
-                <h2>Misión</h2>
-                <p>
-                    Proveer soluciones innovadoras y sostenibles en los sectores de electricidad y energía, mejorando la calidad de vida de nuestras comunidades y promoviendo la eficiencia energética y el uso de energías renovables.
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about_us.html">Sobre Nosotros</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="projects.html">Proyectos</a></li>
+                    <li><a href="market-analysis.html">Análisis de Mercado</a></li>
+                    <li><a href="contact_us.html">Contáctenos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <section>
+                <h1 class="animate__animated animate__pulse">ABOUT US</h1>
+                
+                <p class="descripcion animate__animated animate__fadeInUp">
+                    Omnicom CR Enterprises (OCRE) is
+                    an innovative company specializing
+                    in providing comprehensive
+                    solutions in construction, energy
+                    efficiency, renewable energy,
+                    general electricity, air conditioning,
+                    plumbing and sanitation, cleaning,
+                    maintenance and gardening, and
+                    specialized personnel supply.
+                    Founded by experts with over 15
+                    years of experience in both
+                    Colombia and the United States,
+                    Omnicom combines local and
+                    international knowledge to deliver
+                    high-quality services and
+                    customized solutions to its clients.
                 </p>
-            </div>
-        </section>
-        <section class="about-section">
-            <div class="text-container animate__animated animate__fadeInLeft">
-                <h2>Visión</h2>
-                <p>
-                    Ser líderes en el mercado de soluciones integrales de electricidad y energía, reconocidos por nuestra calidad, innovación y compromiso con la sostenibilidad.
-                </p>
-            </div>
-            <div class="image-container right animate__animated animate__fadeInRight">
-                <img src="img/vision.jpg" alt="Imagen visión">
-            </div>
-        </section>
-        <section class="equipo animate__animated animate__fadeInRight">
-            <h1>EQUIPO</h1>
-            <p>
-                Con un equipo especializado y comprometido, OCRE está preparada para enfrentar cualquier desafío en el ámbito de la energía y la eficiencia.
-            </p>
-            <div class="container">
-                <div class="colum">
-                    <img src="img/user.png" alt="Equipo">
-                    <h4>Usuario</h4>
-                    <p>Instalador</p>
+            </section>
+            <section class="objetivos">
+                <div class="mision ">
+                    <h2 class="animate__animated animate__pulse">MISSION</h2>
+                    <p class="animate__animated animate__fadeInLeft">
+                        Our mission is to
+                        empower communities
+                        and businesses through
+                        innovative and
+                        sustainable solutions,
+                        improving quality of life
+                        and promoting a greener
+                        environment.
+                    </p>
                 </div>
-                <div class="colum">
-                    <img src="img/user.png" alt="Equipo">
-                    <h4>Usuario</h4>
-                    <p>Ingeniero</p>
+                <div class="vision">
+                    <h2 class="animate__animated animate__pulse">VISION</h2>
+                    <p class="animate__animated animate__fadeInRight">
+                        We aspire to be
+                        leaders in the sector,
+                        recognized for our ability
+                        to deliver high-quality
+                        projects that integrate
+                        technology,
+                        sustainability, and social
+                        responsibility, expanding
+                        both nationally and
+                        internationally.
+                    </p>
                 </div>
-                <div class="colum">
-                    <img src="img/user.png" alt="Equipo">
-                    <h4>Usuario</h4>
-                    <p>Electricista</p>
+            </section>            
+        </article>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="social-contact">
+                    <div class="social-media">
+                        <a href="https://facebook.com" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="contact-info">
+                        <span class="email">
+                            <a href="mailto:example@gmail.com">info@omnicomcr.com</a>
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="separator">|</span>
+                        <span class="phone">
+                            <i class="fas fa-phone-alt"></i>
+                            3016758465
+                        </span>
+                    </div>
                 </div>
-                <div class="colum">
-                    <img src="img/user.png" alt="Equipo">
-                    <h4>Usuario</h4>
-                    <p>Supervisor</p>
-                </div>
+                <p>&copy; OMNICOM CR ENTERPRISES, LLC. Todos los derechos reservados.</p>
             </div>
-            
-        </section>
-    </article>
+        </footer>
+    </div>
+    
 </body>
 </html>
