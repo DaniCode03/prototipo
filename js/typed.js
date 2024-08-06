@@ -2,9 +2,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     var typed = new Typed('#typed', {
         strings: [
-            'Bienvenidos a OMNICOM.',
-            'Soluciones Energéticas Integrales y Sostenibles.',
-            'Proyectos exitosos en Colombia y Virginia.'
+            'Welcome to OMNICOM.',
+            'Integral and Sustainable Energy Solutions.',
+            'Successful projects in Colombia and Virginia.'
         ],
         typeSpeed: 50,     
         backSpeed: 50,  

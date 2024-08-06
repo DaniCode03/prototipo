@@ -147,23 +147,15 @@ section p.descripcion {
     font-family: sans-serif;
 }
 
-
-
-
-
-
-
-
-
 .objetivos {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 30px 0px;
-}
+}   
 
 .objetivos > div {
-    max-width: 500px; 
+    max-width: 600px; 
     margin: 0 80px;
 }
 
@@ -184,7 +176,11 @@ section p.descripcion {
     line-height: 1.5;
 }
 
-
+.objetivos img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
 
 
 
