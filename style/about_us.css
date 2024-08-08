@@ -188,29 +188,6 @@ section p.descripcion {
     font-size: 2rem;
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .card-container {
     display: flex;
     justify-content: center;
@@ -281,25 +258,6 @@ section p.descripcion {
 .social-icons a:hover {
     color: #007bff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color: #333;
     color: #fff;
