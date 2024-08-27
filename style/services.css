@@ -237,6 +237,7 @@ section h2 {
     font-weight: 700;
     font-family: sans-serif;
 }
+
 .product-section {
     padding: 20px;
 }
@@ -341,10 +342,6 @@ section h2 {
     justify-content: center;
 }
 
-.value-content h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
 
 .value-content p {
     font-size: 1rem;
@@ -411,7 +408,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    margin-left: -80px;
+    margin-left: -50px;
 }
 
 .contact-info span {
