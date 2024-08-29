@@ -159,7 +159,6 @@ section h1 {
     box-shadow: 0px 0px 5px 10px #fff;
 }
 
-
 .service-card h3 {
     margin: 0;
     font-size: 1.5rem; 
@@ -304,14 +303,6 @@ section h2 {
     line-height: 1.5;
 }
 
-
-
-
-
-
-
-
-
 .cards-wrapper {
     display: flex;
     gap: 1.5rem;
@@ -370,23 +361,6 @@ section h2 {
 .card p strong {
     color: #00796b;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .values-section {
     padding: 40px;
